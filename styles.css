@@ -77,6 +77,7 @@ html {
     margin: 2rem;
 
     height: 10%;
+    flex-grow: 1;
 }
 
 .Main .section .article:first-child .main {
@@ -88,7 +89,7 @@ html {
 
     background-color: rgb(16, 59, 31);
 
-    width: 50%;
+    width: 60%;
     border-radius: 100%;
     display: flex;
     flex-direction: column; 
@@ -101,15 +102,13 @@ html {
 
     font-size: 3rem;
     font-weight: 700;
-    /* margin: 1rem;
-    padding: 1rem; */
+
 }
 .Main .section .article:first-child .main div p{
 
     font-size: 1rem;
     font-weight: 100;
-    /* margin: 1rem;
-    padding: 1rem; */
+
 }
 .Main .section .article:first-child .footer {
     height: 55%;
@@ -148,7 +147,6 @@ html {
 
 .Main .section .article:last-child .main {
     color: hsl(234, 85%, 45%);
-    /* background-color: rgb(234, 226, 179); */
     border-radius: 2rem;
     margin: 2rem;
 
@@ -156,25 +154,18 @@ html {
 
 
 .Main .section .article:last-child .main .menu {
-    color: hsl(234, 85%, 45%);
-    /* background-color: rgb(185, 61, 61); */
-    /* border: 2px solid hsl(96, 85%, 45%); */
-
-    /* margin: 3rem; */
+    color: hsl(0, 0%, 0%);
 }
 
-.Main .section .article:last-child .main .menu .menu__item {
+/*se comenta luego de clase 16*/
+/* .Main .section .article:last-child .main .menu .menu__item {
     color: hsl(300, 2%, 10%);
-    /* background-color: rgb(213, 217, 211); */
-
-    /* border: 2px solid hsl(96, 85%, 45%); */
     border-radius: .5rem;
     margin: 1rem 0 0 0;
 
+} */
 
-}
-
-.Main .section .article:last-child .main .menu .menu__item div {
+/* .Main .section .article:last-child .main .menu .menu__item div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -184,7 +175,7 @@ html {
     border-radius: .5rem;
 
 
-}
+} */
 
 
 .Main .section .article:last-child .footer {
@@ -195,4 +186,21 @@ html {
     background-color: hsl(234, 85%, 45%);
     border-radius: 2rem;
     font-weight: 100;
+}
+
+
+
+/* código a partir de clase 16 */
+.Main .section .article:last-child .main .menu__item div {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: rgb(239, 242, 241);
+    border-radius: .5rem;
+    margin: .5rem 0 0 0;
+
 }

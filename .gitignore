@@ -1,2 +1,25 @@
+# agrego los archivos que no quiero que se suban a github
 apunte.txt
 .gitmessage
+normalizer.css
+reset.css
+
+# Node_modules
+node_modules
+node_modules/
+*node_modules*
+*node_modules/*
+
+# carpeta images
+images
+images/
+*images*
+*images/*
+
+# carpeta icons
+icons
+icons/
+*icons*
+*icons/*
+
+
